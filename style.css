@@ -1,0 +1,149 @@
+html{
+    font-size: 15px;
+    
+}
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover{
+      color: inherit;
+  }
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+body{
+    font-family: IBM Plex Sans Thai Looped,FontAwesome;
+    background-color: whitesmoke;
+  text-align: center;
+     
+}
+#logo{
+    height: 4rem;
+   padding-top: 0px;
+   
+}
+.search{
+    width: 40%;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+    
+.myNav{
+
+    height: 4.1rem;
+    width: 100%;
+    border-bottom: 2px solid rgb(78, 78, 78);
+    min-width: 600px;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+  
+
+}
+.navbar-nav{
+    
+    margin-bottom: 0%;
+}
+
+.icons{
+    transform: scale(1.5);
+    padding-top: 15px;
+    padding-left: 30%;
+   
+}
+.dp{
+    width: 40px;
+    border-radius: 50%;
+    padding-top: 20px;
+   margin-left: 30%;
+   
+  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.con1{
+    padding: 0%;
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: whitesmoke;
+}
+  
+
+   
+
+
+.con2{
+   
+    height: 4rem;
+    background:white       ;
+   
+
+   
+  
+  
+   
+}
+
+.con3{
+    
+    height: 4rem;
+    background: white;
+
+    justify-content: space-evenly; 
+    
+}
+
+
+
+/* @media only screen and (max-width: 1000px){
+    .coon3{
+    min-width:  100%;
+    }
+
+    .sidebar{
+        display: none;
+        
+
+    }
+    .feed{
+        width: 100%;
+    }
+
+    
+
+} */
+
+  @media only screen and (max-width: 650px) {
+    
+    .con1{
+        width: 100%;
+    }
+     .con2{
+      width: 50%;
+      padding-left: 30px;
+
+     }
+     .con3{
+        width: 50%;
+  
+       }
+      
+      
+ }
+
+    @media only screen and (max-width: 500px) {
+        .con3{
+            display: none;
+            
+        }
+        .con2{
+            width: 100%;
+        }
+ }
+  

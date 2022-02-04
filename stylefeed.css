@@ -1,0 +1,127 @@
+.feed{
+    height: auto;
+    padding: 0;
+}
+.avatar{   
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20;
+}
+.avatarSmall{   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20;
+    margin-top: 20px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ 
+   
+}
+.dpfeed{
+    text-align: left;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+ 
+
+
+}
+.dpUsernameSwitch{
+    text-align: left;
+    display: flex;
+   justify-content: space-between;
+    
+ 
+
+}
+.suggestion{
+    text-align: left;
+    display: flex;
+   justify-content: space-between;
+    
+ 
+
+}
+
+
+.username{
+    margin-top: 15px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.material-icons-outlined{
+    padding-top: 10px;
+    width: 50px;
+    transform: scale(1.8);
+}
+.like{
+    padding-top: 10px;
+    width: 50px;
+    transform: scale(1.8);
+    color: red;
+
+}
+.material-icons-outlined:hover{
+    color: rgb(83, 83, 83);
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#photo{
+    width: 100%;
+}
+.noOfLikes{
+    margin-top: 5px;
+    margin-bottom: 0%;
+  
+    font-size: 20px;
+    font-weight: bold;
+
+   
+}
+.likesAndTime{
+    margin-top: 10px;
+  padding-left: 20px;
+    margin: 0%;
+    text-align: left;
+}
+.time{
+
+    margin-top: 0%;
+}
+.comment{
+  
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-top: 5px solid whitesmoke;
+
+}
+
+#comment{
+    height: 3rem;
+    width: 80%;
+    font-size: 20px;
+    border: white;
+}
+.post{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.post:hover{
+    color: rgb(12, 55, 194);
+}
